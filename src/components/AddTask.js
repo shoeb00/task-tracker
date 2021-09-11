@@ -31,8 +31,13 @@ const AddTask = ({onAdd}) => {
             </div>
             <div className='form-control'>
                 <label>Day & Time</label>
-                <input type="text" placeholder='Add Day & Time' value={day}
-                onChange={(e)=> setday(e.target.value)}/>
+                <input type="datetime-local" placeholder='Add Day & Time'
+                onChange={(e)=>{
+                    let date = new Date(e.target.value)
+                    date = date.toString()
+                    date = date.substr(0, 21)
+                    setday(date)
+                }}/>
             </div>
             <div className='form-control form-control-check'>
                 <label>Set Reminder</label>

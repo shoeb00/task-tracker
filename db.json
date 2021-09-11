@@ -1,16 +1,16 @@
 {
   "tasks": [
     {
-      "text": "Edit readme",
-      "day": "6 Sep at 2PM",
-      "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "Add Calendar",
-      "day": "6 Sep at 3PM",
+      "text": "Calendar added",
+      "day": "Sun Sep 12 2021 00:49",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "Readme edited",
+      "day": "Thu Sep 09 2021 12:49",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
